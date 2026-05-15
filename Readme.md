@@ -7,7 +7,7 @@ SDDM is a Login Manager for Linux which can be themed by qml. This is a port of 
 Rebranded to CachyOS.
 
 The Theme is available on AUR:
-`# paru -S cachyos-sddm-emerald`
+`# paru -S cachyos-themes-sddm-emerald `
 
 Manual Installation
 -------------------
