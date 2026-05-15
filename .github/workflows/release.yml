@@ -1,0 +1,27 @@
+name: Release Theme
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Create archive
+        run: |
+          tar -caf cachyos-emerald.tar.xz cachyos-emerald/
+
+      - name: Publish GitHub release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: cachyos-emerald.tar.xz
+          generate_release_notes: true

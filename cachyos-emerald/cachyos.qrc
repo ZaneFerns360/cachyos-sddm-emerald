@@ -1,0 +1,11 @@
+<RCC>
+    <qresource>
+        <file>Main.qml</file>
+        <file>angle-down.png</file>
+        <file>background.png</file>
+        <file>cachyOSGreentext.png</file>
+        <file>cachyos.png</file>
+        <file>cachyos.qmlproject</file>
+        <file>screenshot.png</file>
+    </qresource>
+</RCC>
